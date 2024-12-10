@@ -4,6 +4,11 @@ public class Player {
     String name;
     PieceSymbol pieceSymbol;
 
+    public Player(String name, PieceSymbol pieceSymbol) {
+        this.name = name;
+        this.pieceSymbol = pieceSymbol;
+    }
+
     public String getName() {
         return name;
     }
